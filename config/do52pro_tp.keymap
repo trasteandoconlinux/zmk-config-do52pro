@@ -21,13 +21,6 @@
 #define HAS_MOUSE_TP
 #define HAS_TRI_STATE
 
-#ifdef HAS_MOUSE_TP
-  #define U_TOG_TP_SET &tog MOUSE_TP_SET
-#else
-  #define U_TOG_TP_SET &none
-#endif  // HAS_MOUSE_TP
-
-
 // ZMK includes
 
 // Personal includes
@@ -41,15 +34,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#ifdef HAS_MOUSE_TP
-
-#define U_TOG_TP_SET &tog MOUSE_TP_SET
-
-#else
-
-#define U_TOG_TP_SET &none
-
-#endif 
 
     /{
 
