@@ -34,10 +34,9 @@
 
 #define U_TOG_TP_SET &none
 
-#
+#endif 
 
-endif {
-    /
+    /{
 
     keymap {
         compatible = "zmk,keymap";
