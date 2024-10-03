@@ -61,12 +61,12 @@
 
         upper_layer {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT        &kp HASH  &kp DLLR      &kp PRCNT  &kp CARET  &none           &none           &kp MINUS        &kp EQUAL  &kp INS
-&kp TAB    &none     &none         &kp LBRC  &kp RBRC      &kp GRAVE  &none      &none           &kp UP_ARROW    &none            &none      &none
-&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &kp APOS
-&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &none           &none           &none            &none      &none
-&kp LCTRL  &kp LGUI                          &trans        &trans     &trans     &trans                                           &kp LALT   &kp RGUI
-           &none     &kp C_BRI_DN  &none     &kp C_BRI_UP  &none      &none      &kp C_BRI_DN    &none           &kp C_BRI_UP     &none
+&kp GRAVE  &kp EXCL  &kp AT        &kp HASH  &kp DLLR      &kp PRCNT  &kp CARET  &none           &none           &kp MINUS         &kp EQUAL          &kp INS
+&kp TAB    &none     &none         &kp LBRC  &kp RBRC      &kp GRAVE  &none      &none           &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none              &kp APOS
+&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &none           &none           &none             &none              &none
+&kp LCTRL  &kp LGUI                          &trans        &trans     &trans     &trans                                            &kp LALT           &kp RGUI
+           &none     &kp C_BRI_DN  &none     &kp C_BRI_UP  &none      &none      &kp C_BRI_DN    &none           &kp C_BRI_UP      &none
             >;
         };
 
