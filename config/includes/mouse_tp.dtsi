@@ -121,9 +121,9 @@
       scroll-layers = <LOWER MOUSE_TP_KEYS>;
       //scroll-layers-reverse-direction-horizontal;
 
-      xy-swap;
-      x-invert;
-      y-invert;
+      //xy-swap;
+      //x-invert;
+      //y-invert;
 
       // Set the layer that should automatically activate when the mouse is
       // moving.
@@ -194,7 +194,7 @@
       //
       // If you are using mouse acceleration, please make sure to set the
       // same value for the input-default-sending-rate option.
-      // sampling-rate = <PS2_MOUSE_SAMPLING_RATE>;
+      //sampling-rate = <PS2_MOUSE_SAMPLING_RATE>;
 
 
       // Disables clicking.
