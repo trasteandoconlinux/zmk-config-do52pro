@@ -124,7 +124,7 @@
 
         MouseTP_layer {
             bindings = <
-U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
+&tog MOUSE_TP_SET   &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
@@ -135,7 +135,7 @@ U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &tr
 
         MouseTP_Keys_layer {
             bindings = <
-U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
+&tog MOUSE_TP_SET   &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
@@ -146,11 +146,11 @@ U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &tr
 
         MouseTP_Set_layer {
             bindings = <
-U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
+&tog MOUSE_TP_SET   &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
-&trans              &trans                            &trans  &trans   &mkp LCLK  &mkp RCLK                     &mkp MCLK       &tog MOUSE_TP_SET
+&trans              &trans                   &trans  &trans   &mkp LCLK  &mkp RCLK                     &mkp MCLK       &tog MOUSE_TP_SET
                    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans
             >;
         };
