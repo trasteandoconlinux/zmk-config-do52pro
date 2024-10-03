@@ -10,7 +10,11 @@
 #ifdef HAS_UROB
 
 #define HAS_TRI_STATE
-  #define HAS_NUM_WORD
+#define HAS_NUM_WORD
+
+#define HAS_MOUSE_KEYS
+#define HAS_MOUSE_TP
+#define HAS_TRI_STATE
 
 #endif
 
