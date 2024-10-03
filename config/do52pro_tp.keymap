@@ -5,7 +5,13 @@
 #define UPPER 2
 #define MOUSE_KEYS 3
 #define MOUSE_TP 4
-#define MOUSE_TP_SET 5
+#define NAV 5
+#define NUM 6
+#define SYM 7
+#define FUNC 8
+#define ADJUST 9
+#define MOUSE_TP_KEYS 13
+#define MOUSE_TP_SET 14
 
 #ifdef HAS_UROB
 
