@@ -1,5 +1,1 @@
-# Kim's ZMK Config
-
-## Keymap
-
-![Keymap](keymap_img/keymap.svg)
+# Personal ZMK config for the DO52Pro based on infused-kim/zmk-config
