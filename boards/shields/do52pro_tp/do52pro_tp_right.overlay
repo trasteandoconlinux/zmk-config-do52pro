@@ -28,6 +28,19 @@
  */
 
 
+/*
+ * PS/2 Mouse / Trackpoint - User Configuration
+ *
+ * Enable PS/2 drivers on this side of the keyboard.
+ * It MUST be the central half. If you connected your TP or mouse to the
+ * left side, then move the following content to `your_keyboard_left.overlay`
+ *
+ * You also need to adjust `Kconfig.defconfig` and configure that this side
+ * is the central side.
+ *
+ */
+
+
 // Pick the PS/2 driver
 //
 // Comment out the following define to use the PS/2 GPIO driver instead of the
