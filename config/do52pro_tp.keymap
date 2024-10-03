@@ -1,11 +1,11 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-//#define BASE 0
-//#define LOWER 1
-//#define UPPER 2
-//#define MOUSE_KEYS 3
-//#define MOUSE_TP 4
-//#define MOUSE_TP_SET 5
+#define BASE 0
+#define LOWER 1
+#define UPPER 2
+#define MOUSE_KEYS 3
+#define MOUSE_TP 4
+#define MOUSE_TP_SET 5
 
 #ifdef HAS_UROB
 
@@ -17,6 +17,13 @@
 #define HAS_MOUSE_KEYS
 #define HAS_MOUSE_TP
 #define HAS_TRI_STATE
+
+#ifdef HAS_MOUSE_TP
+  #define U_TOG_TP_SET &tog MOUSE_TP_SET
+#else
+  #define U_TOG_TP_SET &none
+#endif  // HAS_MOUSE_TP
+
 
 // ZMK includes
 // Personal includes
