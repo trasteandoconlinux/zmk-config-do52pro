@@ -113,41 +113,44 @@
         
         MouseKeys_layer {
             bindings = <
-&tog MOUSE_TP_SET  &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
-&none              &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
-&none              &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
-&none              &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
-&none              &none                           &none  &none  &LCLK  &RCLK                &MCLK       &none
-                   &none             &none  &none  &none  &none  &none  &none  &none  &none         &none
+&tog MOUSE_TP_SET  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none  &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none  &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none  &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none                &none  &none  &mkp LCLK  &mkp RCLK                &mkp MCLK       &none
+                   &none  &none  &none  &none  &none  &none  &none  &none  &none         &none
             >;
         };
+
         MouseTP_layer {
             bindings = <
 U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
-&trans              &trans                            &trans  &trans   &LCLK  &RCLK                     &MCLK       &trans
+&trans              &trans                            &trans  &trans   &mkp LCLK  &mkp RCLK                     &mkp MCLK       &trans
                    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans
             >;
         };
+
         MouseTP_Keys_layer {
             bindings = <
 U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
-&trans              &trans                            &trans  &trans   &LCLK  &RCLK                     &MCLK       &tog MOUSE_TP_KEYS
+&trans              &trans                            &trans  &trans   &mkp LCLK  &mkp RCLK                     &mkp MCLK       &tog MOUSE_TP_KEYS
                    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans
             >;
         };
+
         MouseTP_Set_layer {
             bindings = <
 U_TOG_TP_SET      &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans              &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
-&trans              &trans                            &trans  &trans   &LCLK  &RCLK                     &MCLK       &tog MOUSE_TP_SET
+&trans              &trans                            &trans  &trans   &mkp LCLK  &mkp RCLK                     &mkp MCLK       &tog MOUSE_TP_SET
                    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans
             >;
         };
