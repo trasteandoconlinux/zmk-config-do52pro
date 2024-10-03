@@ -10,8 +10,11 @@
 #define SYM 7
 #define FUNC 8
 #define ADJUST 9
-#define MOUSE_TP_KEYS 13
-#define MOUSE_TP_SET 14
+#define MOUSE_TP_KEYS 10
+#define MOUSE_TP_SET 11
+#define NAV_WORD 12
+#define NUM_WORD 13
+#define SYM_WORD 14
 
 #ifdef HAS_UROB
 
