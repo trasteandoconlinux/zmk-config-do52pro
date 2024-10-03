@@ -3,18 +3,12 @@
 #define BASE 0
 #define LOWER 1
 #define UPPER 2
-#define MOUSE_KEYS 3
-#define MOUSE_TP 4
-#define NAV 5
-#define NUM 6
-#define SYM 7
-#define FUNC 8
-#define ADJUST 9
-#define MOUSE_TP_KEYS 10
-#define MOUSE_TP_SET 11
-#define NAV_WORD 12
-#define NUM_WORD 13
-#define SYM_WORD 14
+#define FUNC 3
+#define CONF 4
+#define MOUSE_KEYS 5
+#define MOUSE_TP 6
+#define MOUSE_TP_KEYS 7
+#define MOUSE_TP_SET 8
 
 #ifdef HAS_UROB
 
@@ -35,6 +29,7 @@
 
 
 // ZMK includes
+
 // Personal includes
 
 #include "includes/mouse_keys.dtsi"
@@ -113,6 +108,17 @@
 &none              &none             &none  &none  &none  &none  &none         &none         &none         &none         &none       &none
 &ext_power EP_OFF  &ext_power EP_ON                &none  &none  &none         &none                                     &bt BT_CLR  &bt BT_CLR_ALL
                    &none             &none  &none  &none  &none  &none         &none         &none         &none         &none
+            >;
+        };
+        
+        mouseKeys_layer {
+            bindings = <
+&tog MOUSE_TP_SET  &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none             &none  &none  &none  &none  &none  &none  &none  &none  &none       &none
+&none              &none                           &none  &none  &LCLK  &RCLK                &MCLK       &none
+                   &none             &none  &none  &none  &none  &none  &none  &none  &none         &none
             >;
         };
     };

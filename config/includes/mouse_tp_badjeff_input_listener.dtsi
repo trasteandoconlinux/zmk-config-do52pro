@@ -19,12 +19,9 @@
         // SYM and NAV
         layers = <
           BASE
-          BASE_QWERTY
-          NUM_WORD
-          NAV
-          NUM
           FUNC
-          ADJUST
+          CONF
+          UPPER
           LOWER
           MOUSE_KEYS
           MOUSE_TP
@@ -50,10 +47,7 @@
 
         // The TP will scroll only on the SYM layer
         layers = <
-          SYM
-          SYM_WORD
-          NAV
-          NAV_WORD
+          LOWER
         >;
 
         // Use scroll event codes
