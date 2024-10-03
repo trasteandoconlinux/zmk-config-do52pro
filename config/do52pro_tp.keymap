@@ -34,10 +34,11 @@
 
 #define U_TOG_TP_SET &none
 
-#endif  // HAS_MOUSE_TP
-&lt { tapping-term-ms = <120>; };
+#
 
-/ {
+endif {
+    /
+
     keymap {
         compatible = "zmk,keymap";
 
