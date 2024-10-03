@@ -65,12 +65,12 @@
 
         upper_layer {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT        &kp HASH  &kp DLLR      &kp PRCNT  &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR      &kp RPAR  &kp DEL
-&kp TAB    &none     &none         &kp LBRC  &kp RBRC      &kp GRAVE  &none      &kp LBKT      &kp RBKT   &none         &none     &none
-&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &kp LBRC      &kp RBRC   &none         &none     &none
-&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &kp LBRC      &kp RBRC   &none         &none     &none
-&kp LCTRL  &kp LGUI                          &kp SPACE     &mo 5      &trans     &kp SPACE                              &kp LALT  &kp RGUI
-           &none     &kp C_BRI_DN  &none     &kp C_BRI_UP  &none      &none      &kp C_BRI_DN  &none      &kp C_BRI_UP  &none
+&kp GRAVE  &kp EXCL  &kp AT        &kp HASH  &kp DLLR      &kp PRCNT  &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR  &kp DEL
+&kp TAB    &none     &none         &kp LBRC  &kp RBRC      &kp GRAVE  &none      &none           &kp UP_ARROW    &none            &none     &none
+&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none     &none
+&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &none           &none           &none            &none     &none
+&kp LCTRL  &kp LGUI                          &trans        &trans     &trans     &trans                                           &kp LALT  &kp RGUI
+           &none     &kp C_BRI_DN  &none     &kp C_BRI_UP  &none      &none      &kp C_BRI_DN    &none           &kp C_BRI_UP     &none
             >;
         };
 
@@ -87,7 +87,7 @@
 
         config_layer {
             bindings = <
-&none              &to 0             &to 1  &none  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none       &bootloader
+&bootloader        &to 0             &to 1  &to 2  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none       &bootloader
 &none              &none             &none  &none  &none  &none  &none         &bt BT_PRV    &bt BT_NXT    &bt BT_DISC   &none       &none
 &none              &none             &none  &none  &none  &none  &none         &none         &none         &none         &none       &none
 &none              &none             &none  &none  &none  &none  &none         &none         &none         &none         &none       &none
