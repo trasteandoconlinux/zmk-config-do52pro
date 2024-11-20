@@ -107,7 +107,7 @@
             bindings = <
 &tog MOUSE_TP_SET  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
 &trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
-&trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
+&trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &mo 1   &trans  &trans     &trans
 &trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
 &trans             &trans                  &trans  &trans  &mkp LCLK  &mkp RCLK                  &mkp MCLK  &trans
                    &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
@@ -118,7 +118,7 @@
             bindings = <
 &tog MOUSE_TP_SET  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
 &trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
-&trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
+&trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &mo 1   &trans  &trans     &trans
 &trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
 &trans             &trans                  &trans  &trans  &mkp LCLK  &mkp RCLK                  &mkp MCLK  &tog MOUSE_TP_KEYS
                    &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
