@@ -61,11 +61,11 @@
 
         upper_layer {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT        &kp HASH  &kp DLLR      &kp PRCNT  &kp CARET  &none           &none           &none             &kp MINUS          &kp EQUAL
-&kp TAB    &none     &none         &kp LBRC  &kp RBRC      &kp GRAVE  &none      &none           &kp UP_ARROW    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp INS
-&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none              &kp APOS
-&kp LSHFT  &none     &none         &kp LPAR  &kp RPAR      &none      &none      &none           &none           &none             &none              &none
-&kp LCTRL  &kp LGUI                          &trans        &trans     &trans     &trans                                            &kp LALT           &kp RGUI
+&kp GRAVE    &kp F1      &kp F2        &kp F3     &kp F4        &kp F5      &kp F6      &kp F7        &kp F8         &kp F9        &kp F10        &kp F11
+&kp LA(TAB)  &kp LA(Q)   &kp LA(W)     &kp LA(E)  &kp LA(R)     &kp PIPE    &kp HOME    &kp END       &kp PAGE_DOWN  &kp PAGE_UP   &none          &kp F12
+&trans       &none       &kp CARET     &kp EQUAL  &kp PLUS      &kp TILDE   &none       &none         &none          &kp LG(L)     &none          &kp APOS
+&kp LSHFT    &none       &kp CARET     &kp EQUAL  &kp PLUS      &kp TILDE   &none       &none         &none          &none         &kp BACKSLASH  &kp PRINTSCREEN
+&kp LCTRL    &kp LGUI                             &trans        &trans      &trans      &trans                                     &kp LALT       &kp RGUI
 &kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW   &mkp MB1 &kp RIGHT_ARROW                                                           &kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW   &mkp MB2 &kp RIGHT_ARROW 
         };
 
