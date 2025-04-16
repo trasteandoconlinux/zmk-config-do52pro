@@ -67,6 +67,7 @@
 &kp LSHFT    &none       &kp CARET     &kp EQUAL  &kp PLUS      &kp TILDE   &none       &none         &none          &none         &kp BACKSLASH  &kp PRINTSCREEN
 &kp LCTRL    &kp LGUI                             &trans        &trans      &trans      &trans                                     &kp LALT       &kp RGUI
 &kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW   &mkp MB1 &kp RIGHT_ARROW                                                           &kp LEFT_ARROW  &kp DOWN_ARROW &kp UP_ARROW   &mkp MB2 &kp RIGHT_ARROW 
+            >;
         };
 
         func_layer {
