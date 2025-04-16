@@ -4,6 +4,7 @@
 #define LOWER 1
 #define UPPER 2
 #define FUNC 3
+#define MOVE 3
 #define CONF 4
 #define MOUSE_KEYS 5
 #define MOUSE_TP 6
@@ -39,9 +40,9 @@
 
         base_layer {
             bindings = <
-&kp ESCAPE    &kp N1              &kp N2             &kp N3            &kp N4           &kp N5         &kp N6     &kp N7    &kp N8      &kp N9   &kp N0         &kp BSPC
+&lt 3 ESCAPE    &kp N1              &kp N2             &kp N3            &kp N4           &kp N5         &kp N6     &kp N7    &kp N8      &kp N9   &kp N0         &kp BSPC
 &kp TAB       &kp Q               &kp W              &kp E             &kp R            &kp T          &kp Y      &kp U     &kp I       &kp O    &kp P          &kp BSPC
-&kp CAPSLOCK  &kp A               &kp S              &kp D             &kp F            &kp G          &kp H      &kp J     &kp K       &kp L    &kp SEMI       &kp ENTER
+&kp LCTRL     &kp A               &kp S              &kp D             &kp F            &kp G          &kp H      &kp J     &kp K       &kp L    &kp SEMI       &kp ENTER
 &kp LSHFT     &kp Z               &kp X              &kp C             &kp V            &kp B          &kp N      &kp M     &kp COMMA   &kp DOT  &kp FSLH       &kp RSHFT
 &kp LCTRL     &kp LEFT_ALT                                             &kp N1            &kp SPACE      &mkp MB1  &mkp MB2                       &kp RIGHT_ALT  &kp RCTRL
               &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW  &kp RIGHT_ARROW             &mkp MB1  &mkp MB2     &mkp MB1  &mkp MB2      &mkp MB1  &mkp MB2 
@@ -72,12 +73,12 @@
 
         func_layer {
             bindings = <
-&kp ESC    &kp F1    &kp F2   &kp F3  &kp F4  &kp F5  &kp F6    &kp F7    &kp F6    &kp F9    &kp F10   &kp DEL
-&kp TAB    &kp F11   &kp F12  &none   &none   &none   &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &mkp MB5  &none
-&kp LSHFT  &none     &none    &none   &none   &none   &none     &none     &none     &none     &none     &none
-&kp LSHFT  &none     &none    &none   &none   &none   &none     &none     &none     &none     &none     &none
-&kp LCTRL  &kp LGUI                   &none   &none   &none     &none                         &kp LALT  &kp RGUI
-           &none     &none    &none   &none   &none   &none     &none     &none     &none     &none
+&kp ESC    &kp F1    &kp F2   &kp F3  &kp F4  &kp F5            &kp F6           &kp F7            &kp F6          &kp F9              &kp F10      &kp BSPC
+&kp TAB    &kp F11   &kp F12  &none   &none   &none             &none            &kp HOME          &none           &kp END             &kp PAGE_UP     &none
+&kp LSHFT  &none     &none    &none   &none   &none             &kp UP_ARROW     &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp PAGE_DOWN       &none
+&kp LSHFT  &none     &none    &none   &none   &none             &none            &kp F5            &none           &none               &none        &none
+&kp LCTRL  &kp LGUI                   &none   &none             &none            &none                                                 &kp LALT     &kp RGUI
+           &none &none &none &none &none                                  &none  &none &none &none &none
             >;
         };
 
