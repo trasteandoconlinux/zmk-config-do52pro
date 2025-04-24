@@ -44,7 +44,7 @@
 &kp LCTRL      &kp A               &kp S              &kp D             &kp F            &kp G                      &kp H      &kp J     &kp K       &kp L    &kp SEMI       &kp ENTER
 &kp LGUI       &kp Z               &kp X              &kp C             &kp V            &kp B                      &kp N      &kp M     &kp COMMA   &kp DOT  &kp FSLH       &kp RSHFT
 &td_shift_caps      &kp LEFT_ALT                              &mkp MB2          &kp SPACE                  &kp SPACE  &mkp MB1                       &kp LS(MINUS)          &td_shift_caps
-&kp LEFT_ARROW  &kp DOWN_ARROW &mkp MB1 &kp UP_ARROW    &kp RIGHT_ARROW                                                           &mkp MB1  &mkp MB1 &mkp MB2 &mkp MB2    &mkp MB2 
+&kp LEFT_ARROW  &kp DOWN_ARROW &mkp MB1 &kp UP_ARROW    &kp RIGHT_ARROW                                                           &mkp LCLK  &mkp RCLK &mkp MCLK &mkp RCLK  &mkp LCLK 
             >;
         };
 
@@ -109,7 +109,7 @@
 &trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
 &trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &mo 1   &trans  &trans     &trans
 &trans             &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans     &trans
-&trans             &trans                  &trans  &trans  &mkp LCLK  &mkp RCLK                  &mkp MCLK  &trans
+&trans             &trans                  &trans  &trans  &mkp LCLK  &mkp RCLK &mkp MCLK  &trans
                    &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
             >;
         };
