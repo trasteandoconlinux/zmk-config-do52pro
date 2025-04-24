@@ -55,7 +55,7 @@
 &trans       &none       &kp CARET     &kp EQUAL  &kp PLUS      &kp TILDE   &none       &none         &none          &kp LG(L)     &none          &kp APOS
 &kp LSHFT    &none       &kp CARET     &kp EQUAL  &kp PLUS      &kp TILDE   &none       &none         &none          &none         &kp BACKSLASH  &kp PRINTSCREEN
 &kp LCTRL    &kp LGUI                             &trans        &trans      &trans      &trans                                     &kp LALT       &kp RGUI
-&kp LEFT_ARROW  &kp DOWN_ARROW &mkp MB1 &kp UP_ARROW    &kp RIGHT_ARROW                                                          &kp LEFT_ARROW  &kp DOWN_ARROW &mkp MB1 &kp UP_ARROW    &kp RIGHT_ARROW 
+&kp LEFT_ARROW  &kp DOWN_ARROW &mkp MB1 &kp UP_ARROW    &kp RIGHT_ARROW                                                          &mkp LCLK  &mkp RCLK &mkp MCLK &mkp RCLK  &mkp LCLK 
             >;
         };
 
